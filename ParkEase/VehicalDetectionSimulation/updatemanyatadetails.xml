@@ -1,0 +1,38 @@
+<Location xmlns="http://www.example.org/IBMParkEase">
+	<locationName>IBM_MANYATA</locationName>
+	<locationAddress>
+		IBM Manyata,Block D4, 2nd floor Manyata Embassy Business Park, Outer Ring
+		Road, Nagawara, Bengaluru, Karnataka
+	</locationAddress>
+	<geoLocation>Latitude : 13.044831 | Longitude : 77.622109</geoLocation>
+	<parkingAreas>
+		<parkingAreaName>K BLOCK</parkingAreaName>
+		<availableSlots>7</availableSlots>
+		<totalSlots>120</totalSlots>
+	</parkingAreas>
+	<parkingAreas>
+		<parkingAreaName>D1 BLOCK</parkingAreaName>
+		<availableSlots>120</availableSlots>
+		<totalSlots>120</totalSlots>
+	</parkingAreas>
+	<parkingAreas>
+		<parkingAreaName>D2 BLOCK</parkingAreaName>
+		<availableSlots>0</availableSlots>
+		<totalSlots>120</totalSlots>
+	</parkingAreas>
+	<parkingAreas>
+		<parkingAreaName>D3 BLOCK</parkingAreaName>
+		<availableSlots>120</availableSlots>
+		<totalSlots>120</totalSlots>
+	</parkingAreas>
+	<parkingAreas>
+		<parkingAreaName>MLCP 1st Floor</parkingAreaName>
+		<availableSlots>0</availableSlots>
+		<totalSlots>120</totalSlots>
+	</parkingAreas>
+	<parkingAreas>
+		<parkingAreaName>MLCP 2nd Floor</parkingAreaName>
+		<availableSlots>7</availableSlots>
+		<totalSlots>120</totalSlots>
+	</parkingAreas>
+</Location>
