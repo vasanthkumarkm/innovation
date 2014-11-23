@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/IBMParkEase" xmlns:tns="http://www.example.org/IBMParkEase" elementFormDefault="qualified">
+
+    <element name="Location" type="tns:LocationType"></element>
+    
+    <complexType name="LocationType">
+    	<sequence>
+    		<element name="locationName" type="string"></element>
+    		<element name="locationAddress" type="string"></element>
+    		<element name="geoLocation" type="string"></element>
+    		<element name="parkingAreas" type="tns:ParkingAreasType" maxOccurs="unbounded" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="ParkingAreasType">
+    	<sequence>
+    		<element name="parkingAreaName" type="string"></element>
+    		<element name="availableSlots" type="string"></element>
+    		<element name="totalSlots" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>
